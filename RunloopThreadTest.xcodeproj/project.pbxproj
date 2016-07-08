@@ -13,6 +13,8 @@
 		BABC33E91C2609D3009F4397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABC33E71C2609D3009F4397 /* Main.storyboard */; };
 		BABC33EB1C2609D3009F4397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABC33EA1C2609D3009F4397 /* Assets.xcassets */; };
 		BABC33EE1C2609D3009F4397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABC33EC1C2609D3009F4397 /* LaunchScreen.storyboard */; };
+		BABC33F81C26143D009F4397 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BABC33F61C26143D009F4397 /* PushViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BABC33F91C26143D009F4397 /* PushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABC33F71C26143D009F4397 /* PushViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		BABC33EA1C2609D3009F4397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BABC33ED1C2609D3009F4397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BABC33EF1C2609D3009F4397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABC33F51C26143D009F4397 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		BABC33F61C26143D009F4397 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		BABC33F71C26143D009F4397 /* PushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PushViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				BABC33EC1C2609D3009F4397 /* LaunchScreen.storyboard */,
 				BABC33EF1C2609D3009F4397 /* Info.plist */,
 				BABC33DE1C2609D3009F4397 /* Supporting Files */,
+				BABC33F51C26143D009F4397 /* PushViewController.h */,
+				BABC33F61C26143D009F4397 /* PushViewController.m */,
+				BABC33F71C26143D009F4397 /* PushViewController.xib */,
 			);
 			path = RunloopThreadTest;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 			files = (
 				BABC33EE1C2609D3009F4397 /* LaunchScreen.storyboard in Resources */,
 				BABC33EB1C2609D3009F4397 /* Assets.xcassets in Resources */,
+				BABC33F91C26143D009F4397 /* PushViewController.xib in Resources */,
 				BABC33E91C2609D3009F4397 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +160,7 @@
 			files = (
 				BABC33E61C2609D3009F4397 /* ViewController.m in Sources */,
 				BABC33E31C2609D3009F4397 /* AppDelegate.m in Sources */,
+				BABC33F81C26143D009F4397 /* PushViewController.m in Sources */,
 				BABC33E01C2609D3009F4397 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
